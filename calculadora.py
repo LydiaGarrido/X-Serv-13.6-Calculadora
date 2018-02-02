@@ -24,16 +24,16 @@ try:
 except ValueError:
     sys.exit("No estan permitidos operandos que no sean float")
 
-if sys.argv[1] == 'suma':
+if sys.argv[1] == 'sumar':
     print(suma(operando1, operando2))
 
-elif sys.argv[1] == 'resta':
+elif sys.argv[1] == 'restar':
     print(resta(operando1, operando2))
 
-elif sys.argv[1] == 'multiplicacion':
+elif sys.argv[1] == 'multiplicar':
     print(multiplicacion(operando1, operando2))
 
-elif sys.argv[1] == 'division':
+elif sys.argv[1] == 'dividir':
     try:
         print(division(operando1, operando2))
     except ZeroDivisionError:
